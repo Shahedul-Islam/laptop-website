@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    display: flex;
+    background-color: #3498db;
+}
+.left{
+    max-width: 30%;
+}
+.left img{
+    width: 343px;
+    height: auto;
+}
+.right{
+    max-width: 70%;
+}
+.right ul li {
+    display: inline-block;
+}
+.right ul li a {
+    margin-left: 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 6;
+    transition: .5s;
+}
+.right ul li a:hover{
+    background-color: #2980b9;
+}
+.caption{
+    text-align: center;
+}
+.banner{
+    background: url(./imges/photo_slideshow.png) no-repeat center;
+    padding: 200px 0;
+    background-size: cover;
+}
+.caption h1{
+    background:rgba(52,152,219,.6);
+    color: #fff;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.caption h2{
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    display: inline-block;
+    padding: 10px20px;
+    font-size: 34px;
+    border-radius:5px ;
+}
+.service{
+    display:flex ;
+    padding: 20px;
+    margin-top: 30px;
+}
+.item{
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.item span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #3498db;
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+}
+.about{
+    text-align: center;
+    margin-top: 60px;
+
+}
+.about h2{
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.about p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 19px;
+}
+.blog{
+    display: flex;
+    margin: 60px 0;
+}
+.blog-left{
+    max-width: 70%;
+}
+.blog-right{
+    max-width: 25%;
+m}
+.blog-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+.blog-item img{
+    width: 160px;
+    height: auto;
+    margin-right: 15px;
+}
+.blog-right h2{
+    font-size: 32px;
+    border-bottom: 1px solid#ddd ;
+   margin-bottom: 10px;
+   padding-bottom: 6px;
+}
+.blog-right ul{
+    list-style: none;
+    margin-left: 20px;
+}
+.blog-right li{
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: #3f51b5b8;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+
+
